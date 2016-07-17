@@ -13,7 +13,7 @@ export class ModalContasPage {
   }
 
   cancel() {
-    this.view.dismiss();
+    this.view.dismiss(this.conta);
   }
 
   salvar() {
